@@ -50,7 +50,7 @@ module.exports = {
     // Paths
     assetsRoot: path.resolve(__dirname, '../dist'),
     assetsSubDirectory: 'static',
-    assetsPublicPath: '/vue-8-puzzle/',
+    assetsPublicPath: './vue-8-puzzle/',
 
     /**
      * Source Maps
