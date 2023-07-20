@@ -4,10 +4,10 @@
       <div
         class="header-item title"
         @click="onTitleClick"
-      >Cat-Gif-Puzzle</div>
+      >Memories-Puzzle</div>
       <!-- <div class="header-item distance">d: {{distance}}</div> -->
       <div class="header-item spacer"></div>
-      <div @click="onMeowClick" class="header-item meow">😺MEOW!</div>
+      <div @click="onMeowClick" class="header-item meow">😺Yanny MEOW!</div>
       <div class="header-item spacer"></div>
       <!-- <div class="header-item">
         <label for="showNumber">#:</label>
@@ -54,7 +54,7 @@
     <div
       class="repo"
       @click="onTitleClick"
-    >made by <a target="_blank" rel="noopener noreferrer" href="https://github.com/meganetaaan/vue-8-puzzle">vue-8-puzzle</a>
+    >made & modified by <a target="_blank" rel="noopener noreferrer" href="">Kimhak</a>
 </div>
   </div>
 </template>
@@ -158,7 +158,7 @@ export default {
   },
   methods: {
     onTitleClick() {
-      window.open('https://github.com/meganetaaan/vue-8-puzzle')
+      window.open('')
     },
     onMeowClick() {
       getGiphySrc().then(data => {
@@ -209,7 +209,7 @@ body {
   width: 100%;
   height: 60px;
   color: #fafafa;
-  background-color: #e91e63;
+  background-color: #c2b0eb;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
 .header-item {
